@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "115465497613",
+    "project_id": "ml-kit-example-23d44",
+    "storage_bucket": "ml-kit-example-23d44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115465497613:android:24739e4f436fff5f1af944",
+        "android_client_info": {
+          "package_name": "com.example.ml_kit_text_recognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115465497613-5622q59hl34kud2tldbh67u7akj2ocjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBesYrENa9bhcr7fZAJAdC8QcaPCwikTts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115465497613-5622q59hl34kud2tldbh67u7akj2ocjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

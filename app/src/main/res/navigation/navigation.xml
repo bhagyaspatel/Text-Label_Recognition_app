@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/textRecognitionFragment"
+        android:name="com.example.ml_kit_text_recognition.TextRecognitionFragment"
+        android:label="fragment_text_recognition"
+        tools:layout="@layout/fragment_text_recognition" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.ml_kit_text_recognition.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_textRecognitionFragment"
+            app:destination="@id/textRecognitionFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_labelRecognitionFragment"
+            app:destination="@id/labelRecognitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/labelRecognitionFragment"
+        android:name="com.example.ml_kit_text_recognition.LabelRecognitionFragment"
+        android:label="fragment_label_recognition"
+        tools:layout="@layout/fragment_label_recognition" />
+</navigation>
